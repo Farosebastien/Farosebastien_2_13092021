@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <title>Reservia</title>
+    </head>
+
+    <body>
+        <main id="page">
+            <header> <!--header de la page-->
+                <img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia">  <!--logo reservia-->
+                <nav class="navigation">
+                    <h2 class="lienhebergements"><a href="#hebergements">Hébergements</a></h2> <!--ancre hébergements-->
+                    <h2 class="lienactivites"><a href="#activites">Activités</a></h2> <!--ancre activités-->
+                </nav>
+                <h2 class="inscription">S'inscrire</h2> <!--inscrire-->
+            </header>
+            <section id="section_1"> <!--section menu-->
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <div class="recherche"> <!--division recherche-->
+                    <img class="marquage" src="Images/Icones/map-marker-alt-solid.svg" alt="">
+                    <form class="champrecherche" method="POST" action=""> <!--champ de saisie-->
+                        <h2>
+                            <input type="text" name="ville" placeholder="Ex : Paris">
+                        </h2>
+                    </form>
+                    <button class="boutonrecherche" type="button"> <!--bouton recherche-->
+                        Rechercher
+                    </button>                    
+                </div>
+                <div class="filtres"> <!--division filtres-->
+                    <h2>Filtres</h2>
+                    <div class="filtre_eco"> <!--division filtre economique-->
+                        <img class="money" src="Images/Icones/money-bill-wave-solid.svg" alt="">
+                        <h2 class="money">Economique</h2>
+                    </div>
+                    <div class="filtre_fam"> <!--division filtre familial-->
+                        <img class="child" src="Images/Icones/child-solid.svg" alt="">
+                        <h2 class="child">Familial</h2>
+                    </div>
+                    <div class="filtre_rom"> <!--division filtre romantique-->
+                        <img class="heart" src="Images/Icones/heart-solid.svg" alt="">
+                        <h2 class="heart">Romantique</h2>
+                    </div>
+                    <div class="filtre_ani"> <!--division filtre animaux-->
+                        <img class="dog" src="Images/Icones/dog-solid.svg" alt="">
+                        <h2 class="dog">Animaux autorisés</h2>
+                    </div>
+                </div>
+                <div class="info"> <!--division information-->
+                    <img class="information" src="Images/Icones/info-circle-solid.svg" alt="">
+                    <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </section>
+            <section id="section_2"> <!--section hebergements-->
+                <div class="hebergements"> <!--division hebergements-->
+                    <h1 class="hebergements">Hébergements a Marseille</h1>
+                    <div class="cannebiere"> <!--division cannebiere-->
+                        <img class="cannebiere" src="Images/Hébergements/large/auberge_cannebiere.jpg" alt="">
+                        <h3 class="cannebiere">Auberge la Cannebière</h3>
+                        <p class="cannbiere">Nuit à partir de 25&euro;</p>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+    </body>
+
+</html>
