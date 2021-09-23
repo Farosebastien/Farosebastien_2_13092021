@@ -22,12 +22,10 @@
             <section id="section_1"> <!--section menu-->
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <div class="recherche"> <!--division recherche-->
-                    <img class="marquage" src="Images/Icones/map-marker-alt-solid.svg" alt="">
-                    <form class="champrecherche" method="POST" action=""> <!--champ de saisie-->
-                        <h2>
+                <div class="recherche"> <!--division recherche--> 
+                    <form class="champrecherche" method="POST" action="traitement.php"> <!--champ de saisie-->
+                            <img class="marquage" src="Images/Icones/map-marker-alt-solid.svg" alt="">
                             <input type="text" name="ville" placeholder="Ex : Paris">
-                        </h2>
                     </form>
                     <button class="boutonrecherche" type="button"> <!--bouton recherche-->
                         Rechercher
