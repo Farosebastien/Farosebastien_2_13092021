@@ -6,60 +6,61 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5b77b1eedb.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
 
     <body>
-        <main id="page">
-            <header> <!--header de la page-->
-                <img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia">  <!--logo reservia-->
+        <main id="container">
+            <header> <!--page header-->
+                <img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia">  <!--reservia logo-->
                 <nav class="navigation">
-                    <h2 class="lienhebergements"><a href="#hebergements">Hébergements</a></h2> <!--ancre hébergements-->
-                    <h2 class="lienactivites"><a href="#activites">Activités</a></h2> <!--ancre activités-->
+                    <h2 class="hosting_link"><a href="#hosting">Hébergements</a></h2> <!--hosting link-->
+                    <h2 class="activities_link"><a href="#activities">Activités</a></h2> <!--activities link-->
                 </nav>
-                <h2 class="inscription">S'inscrire</h2> <!--inscrire-->
+                <h2 class="inscription">S'inscrire</h2> <!--inscription-->
             </header>
-            <section id="section_1"> <!--section menu-->
+            <section id="section_1"> <!--menu section-->
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-                <div class="recherche"> <!--division recherche--> 
-                    <form class="champrecherche" method="POST" action="traitement.php"> <!--champ de saisie-->
-                            <img class="marquage" src="Images/Icones/map-marker-alt-solid.svg" alt="">
-                            <input type="text" name="ville" placeholder="Ex : Paris">
+                <div class="search"> <!--search division--> 
+                    <form class="search_field" method="POST" action="processing.php"> <!--entry field-->
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" name="ville" placeholder="Ex : Paris">
+                        <button class="search_button" type="submit"> <!--search button-->
+                            Rechercher
+                        </button>
                     </form>
-                    <button class="boutonrecherche" type="button"> <!--bouton recherche-->
-                        Rechercher
-                    </button>                    
                 </div>
-                <div class="filtres"> <!--division filtres-->
+                <div class="filters"> <!--filters division-->
                     <h2>Filtres</h2>
-                    <div class="filtre_eco"> <!--division filtre economique-->
-                        <img class="money" src="Images/Icones/money-bill-wave-solid.svg" alt="">
+                    <div class="eco_filter"> <!--economic filter division-->
+                        <i class="fa-solid fa-money-bill-wave"></i>
                         <h2 class="money">&Eacute;conomique</h2>
                     </div>
-                    <div class="filtre_fam"> <!--division filtre familial-->
-                        <img class="child" src="Images/Icones/child-solid.svg" alt="">
+                    <div class="fam_filter"> <!--family filter division-->
+                        <i class="fa-solid fa-child"></i>
                         <h2 class="child">Familial</h2>
                     </div>
-                    <div class="filtre_rom"> <!--division filtre romantique-->
-                        <img class="heart" src="Images/Icones/heart-solid.svg" alt="">
+                    <div class="romantic_filter"> <!--romantic filter division-->
+                        <i class="fa-solid fa-heart"></i>
                         <h2 class="heart">Romantique</h2>
                     </div>
-                    <div class="filtre_ani"> <!--division filtre animaux-->
-                        <img class="dog" src="Images/Icones/dog-solid.svg" alt="">
+                    <div class="pets_filter"> <!--pets filter division-->
+                        <i class="fa-solid fa-dog"></i>
                         <h2 class="dog">Animaux autorisés</h2>
                     </div>
                 </div>
-                <div class="info"> <!--division information-->
-                    <img class="information" src="Images/Icones/info-circle-solid.svg" alt="">
+                <div class="info"> <!--information division-->
+                    <i class="fa-regular fa-circle-info"></i>
                     <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
-            <section id="section_2"> <!--section hebergements-->
-                <div id="hebergements"> <!--division hebergements-->
-                    <h1 class="hebergements">Hébergements a Marseille</h1>
-                    <div class="cannebiere"> <!--division cannebiere-->
-                        <img class="cannebiere" src="Images/Hébergements/large/auberge_cannebiere.jpg" alt="">
+            <section id="section_2"> <!--hosting section-->
+                <div id="hosting"> <!--hosting division-->
+                    <h1 class="hosting">Hébergements a Marseille</h1>
+                    <div class="cannebiere"> <!--cannebiere division-->
+                        <img class="cannebiere" src="Images/Hebergements/medium/auberge_cannebiere.jpg" alt="auberge de la cannebiere">
                         <h3 class="cannebiere">Auberge la Cannebière</h3>
                         <p class="cannebiere">Nuit à partir de 25&euro;</p>
 
