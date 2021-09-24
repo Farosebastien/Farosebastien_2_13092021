@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=375" />
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,34 +26,35 @@
                 <p>En plein centre ville ou en pleine nature</p>
                 <div class="search"> <!--search division--> 
                     <form class="search_field" method="POST" action="processing.php"> <!--entry field-->
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="fa fa-solid fa-location-dot"></i>
                         <input type="text" name="ville" placeholder="Ex : Paris">
-                        <button class="search_button" type="submit"> <!--search button-->
-                            Rechercher
+                        <button class="search_button" type="button"> <!--search button-->
+                            <span class="search_text">Rechercher</span>
+                            <span class="search_icon"><i class="fab fa-sistrix"></i></span>
                         </button>
                     </form>
                 </div>
                 <div class="filters"> <!--filters division-->
                     <h2>Filtres</h2>
                     <div class="eco_filter"> <!--economic filter division-->
-                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <i class="fa fa-solid fa-money-bill-wave"></i>
                         <h2 class="money">&Eacute;conomique</h2>
                     </div>
                     <div class="fam_filter"> <!--family filter division-->
-                        <i class="fa-solid fa-child"></i>
+                        <i class="fa fa-solid fa-child"></i>
                         <h2 class="child">Familial</h2>
                     </div>
                     <div class="romantic_filter"> <!--romantic filter division-->
-                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa fa-solid fa-heart"></i>
                         <h2 class="heart">Romantique</h2>
                     </div>
                     <div class="pets_filter"> <!--pets filter division-->
-                        <i class="fa-solid fa-dog"></i>
+                        <i class="fa fa-solid fa-dog"></i>
                         <h2 class="dog">Animaux autorisés</h2>
                     </div>
                 </div>
                 <div class="info"> <!--information division-->
-                    <i class="fa-regular fa-circle-info"></i>
+                    <i class="fa fa-regular fa-circle-info"></i>
                     <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
