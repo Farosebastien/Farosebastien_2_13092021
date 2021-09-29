@@ -1,7 +1,24 @@
 body
 {
-    display: flex;
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+h1
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.hosting_link, .activities_link
+{
+    color: black;
+    text-decoration: none;
+}
+.hosting_link:hover, .activities_link:hover
+{
+    color: #0065FC;
+    border-top-style: solid;
+    border-top-color: #0065FC;
+    border-top-width: 2px;
 }
 footer, #most_popular
 {
@@ -16,28 +33,91 @@ footer, #most_popular
 {
     background-color: #0065FC;
 }
-.inscription
-{
-    color: #0065FC;
-}
-.hosting_link:hover, .activities_link:hover
-{
-    color: #0065FC;
-    border-top-style: solid;
-    border-top-color: #0065FC;
-}
-.hosting_link, .activities_link
-{
-    color: black;
-    text-decoration: none;
-}
+
+
+
+
 
 @media  screen and (min-width: 768px)
 {
     #container
     {
         width: 1440px;
+
     }
+    header
+    {
+        display: flex;
+        
+    }
+    .logo
+    {
+        width: 94px;
+        margin: 44px 0px 0px 54px;
+    }
+    nav
+    {
+        display: flex;
+        flex-direction: row;
+        width: 310px;
+        position: absolute;
+        left: 949px;
+    }
+    .hosting_link, .activities_link
+    {
+        padding-top: 49px;
+        margin-top: 0px;
+    }
+    a.hosting_link, a.activities_link
+    {
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+    .inscription
+    {
+        color: #0065FC;
+        font-weight: bold;
+        position: absolute;
+        left: 1293px;
+        padding-top: 33px;
+        
+    }
+    h1.section_1
+    {
+        margin: 39.26px 0px 0px 54px;
+    }
+    p.section_1
+    {
+        margin: 8px 0px 0px 54px;
+    }
+    form
+    {
+        margin: 18px 0px 0px 54px;
+    }
+    
+    .fas.fa-map-marker-alt
+    {
+        font-size: 18px;
+        color: black;
+        padding: 16px 20px 16px 20px;
+        margin: 0px;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 12px 0px 0px 12px;
+    }
+    input
+    {
+        width: 234px;
+        height: 50px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute;
+        left: 109px;
+        border: 1px solid #F2F2F2;
+    }
+
     .search_text
     {
         color: white;
@@ -50,16 +130,10 @@ footer, #most_popular
     {
         background-color: #F2F2F2;
     }
-    nav
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    header
-    {
-        display: flex;
-        justify-content: space-between;
-    }
+    
+    
+    
+
 
 }
 

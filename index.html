@@ -16,18 +16,18 @@
             <header> <!--page header-->
                 <img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia">  <!--reservia logo-->
                 <nav class="navigation">
-                    <h2 class="hosting_link"><a class="hosting_link" href="#hosting">H&eacute;bergements</a></h2> <!--hosting link-->
-                    <h2 class="activities_link"><a class="activities_link" href="#activities">Activit&eacute;s</a></h2> <!--activities link-->
+                    <p class="hosting_link"><a class="hosting_link" href="#hosting">H&eacute;bergements</a></p> <!--hosting link-->
+                    <p class="activities_link"><a class="activities_link" href="#activities">Activit&eacute;s</a></p> <!--activities link-->
                 </nav>
-                <h2 class="inscription">S&apos;inscrire</h2> <!--inscription-->
+                <p class="inscription">S&apos;inscrire</p> <!--inscription-->
             </header>
             <section id="section_1"> <!--menu section-->
                 <h1 class="section_1">Trouvez votre h&eacute;bergement pour des vacances de r&ecirc;ve</h1>
                 <p class="section_1">En plein centre ville ou en pleine nature</p>
                 <div class="search"> <!--search division--> 
                     <form class="search_field" method="POST" action="processing.php"> <!--entry field-->
-                        <i class="fa fa-solid fa-location-dot"></i>
-                        <input type="text" name="ville" placeholder="Ex : Paris">
+                        <span class="location_dot"><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" name="ville" placeholder="Marseille, France">
                         <button class="search_button" type="button"> <!--search button-->
                             <span class="search_text">Rechercher</span>
                             <span class="search_icon"><i class="fab fa-sistrix"></i></span>
@@ -62,160 +62,190 @@
                 <div id="hosting"> <!--hosting division-->
                     <h1 class="hosting">H&eacute;bergements a Marseille</h1>
                     <div class="hosting_line_1"> <!--first_line_hosting_division-->
-                        <div class="hosting_1"> <!--hosting_1 division-->
-                            <img class="hosting_1" src="Images/Hebergements/large/auberge_cannebiere.jpg" alt="auberge de la cannebiere">
-                            <h3 class="hosting_1">Auberge la Cannebi&egrave;re</h3>
-                            <p class="hosting_1">Nuit &agrave; partir de 25&euro;</p>
-                            <div class="stars_1">
-                                <span class="stars_1_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_1_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_1_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_1_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_1_5"><i class="fas fa-star"></i></span>
+                        <a href="">
+                            <div class="hosting_1"> <!--hosting_1 division-->
+                                <img class="hosting_1" src="Images/Hebergements/large/auberge_cannebiere.jpg" alt="auberge de la cannebiere">
+                                <h3 class="hosting_1">Auberge la Cannebi&egrave;re</h3>
+                                <p class="hosting_1">Nuit &agrave; partir de 25&euro;</p>
+                                <div class="stars_1">
+                                    <span class="stars_1_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_1_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_1_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_1_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_1_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="hosting_2"> <!--hosting_2 division-->
-                            <img class="hosting_2" src="Images/Hebergements/large/hotel_port.jpg" alt="hotel du port">
-                            <h3 class="hosting_2">H&ocirc;tel du port</h3>
-                            <p class="hosting_2">Nuit &agrave; partir de 52&euro;</p>
-                            <div class="stars_2">
-                                <span class="stars_2_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_2_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_2_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_2_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_2_5"><i class="fas fa-star"></i></span>
+                        </a>
+                        <a href="">   
+                            <div class="hosting_2"> <!--hosting_2 division-->
+                                <img class="hosting_2" src="Images/Hebergements/large/hotel_port.jpg" alt="hotel du port">
+                                <h3 class="hosting_2">H&ocirc;tel du port</h3>
+                                <p class="hosting_2">Nuit &agrave; partir de 52&euro;</p>
+                                <div class="stars_2">
+                                    <span class="stars_2_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_2_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_2_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_2_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_2_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="hosting_3"> <!--hosting_3 division-->
-                            <img class="hosting_3" src="Images/Hebergements/large/hotel_mouette.jpg" alt="hotel les mouettes">
-                            <h3 class="hosting_3">H&ocirc;tel Les Mouettes</h3>
-                            <p class="hosting_3">Nuit &agrave; partir de 76&euro;</p>
-                            <div class="stars_3">
-                                <span class="stars_3_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_3_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_3_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_3_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_3_5"><i class="fas fa-star"></i></span>
+                        </a>
+                        <a href="">
+                            <div class="hosting_3"> <!--hosting_3 division-->
+                                <img class="hosting_3" src="Images/Hebergements/large/hotel_mouette.jpg" alt="hotel les mouettes">
+                                <h3 class="hosting_3">H&ocirc;tel Les Mouettes</h3>
+                                <p class="hosting_3">Nuit &agrave; partir de 76&euro;</p>
+                                <div class="stars_3">
+                                    <span class="stars_3_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_3_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_3_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_3_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_3_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="hosting_line_2"> <!--second_line_hosting_division-->  
-                        <div class="hosting_4"> <!--hosting_4 division-->
-                            <img class="hosting_4" src="Images/Hebergements/large/hotel_mer.jpg" alt="hotel de le mer">
-                            <h3 class="hosting_4">H&ocirc;tel de la mer</h3>
-                            <p class="hosting_4">Nuit &agrave; partir de 46&euro;</p>
-                            <div class="stars_4">
-                                <span class="stars_4_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_4_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_4_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_4_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_4_5"><i class="fas fa-star"></i></span>
+                    <div class="hosting_line_2"> <!--second_line_hosting_division-->
+                        <a href="">
+                            <div class="hosting_4"> <!--hosting_4 division-->
+                                <img class="hosting_4" src="Images/Hebergements/large/hotel_mer.jpg" alt="hotel de le mer">
+                                <h3 class="hosting_4">H&ocirc;tel de la mer</h3>
+                                <p class="hosting_4">Nuit &agrave; partir de 46&euro;</p>
+                                <div class="stars_4">
+                                    <span class="stars_4_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_4_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_4_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_4_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_4_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="hosting_5"> <!--hosting_5 division-->
-                            <img class="hosting_5" src="Images/Hebergements/large/auberge_panier.jpg" alt="auberge le panier">
-                            <h3 class="hosting_5">Auberge Le Panier</h3>
-                            <p class="hosting_5">Nuit &agrave; partir de 23&euro;</p>
-                            <div class="stars_5">
-                                <span class="stars_5_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_5_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_5_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_5_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_5_5"><i class="fas fa-star"></i></span>
+                        </a>  
+                        <a href="">  
+                            <div class="hosting_5"> <!--hosting_5 division-->
+                                <img class="hosting_5" src="Images/Hebergements/large/auberge_panier.jpg" alt="auberge le panier">
+                                <h3 class="hosting_5">Auberge Le Panier</h3>
+                                <p class="hosting_5">Nuit &agrave; partir de 23&euro;</p>
+                                <div class="stars_5">
+                                    <span class="stars_5_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_5_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_5_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_5_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_5_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="hosting_6"><!--hostin_6 division-->
-                            <img class="hosting_6" src="Images/Hebergements/large/hotel_amina.jpg" alt="hotel chez amina">
-                            <h3 class="hosting_6">H&ocirc;tel chez Amina</h3>
-                            <p class="hosting_6">Nuit &agrave; partir de 96&euro;</p>
-                            <div class="stars_6">
-                                <span class="stars_6_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_6_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_6_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_6_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_6_5"><i class="fas fa-star"></i></span>
+                        </a>
+                        <a href="">    
+                            <div class="hosting_6"><!--hostin_6 division-->
+                                <img class="hosting_6" src="Images/Hebergements/large/hotel_amina.jpg" alt="hotel chez amina">
+                                <h3 class="hosting_6">H&ocirc;tel chez Amina</h3>
+                                <p class="hosting_6">Nuit &agrave; partir de 96&euro;</p>
+                                <div class="stars_6">
+                                    <span class="stars_6_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_6_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_6_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_6_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_6_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
-                        </div>
+                        </a>    
                     </div>
                     <h2 class="hosting">Afficher plus</h2>
                 </div>
                 <div id="most_popular"> <!--most_popular division-->
                     <h1 class="most_popular">Les Plus Populaires</h1>
                     <span class="chart_line"><i class="fas fa-chart-line"></i></span>
-                    <div class="popular_1"> <!--most_popular_1_division-->
-                        <img class="popular_1" src="Images/Populaires/large/hotel_matin.jpg" alt="hotel le soleil du matin">
-                        <div class="popular_1_text">
-                            <h3 class="popular_1_text">H&ocirc;tel Le soleil du matin</h3>
-                            <p class="popular_1_text">Nuit &agrave; partir de 128&euro;</p>
-                            <div class="stars_popular_1">
-                                <span class="stars_popular_1_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_1_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_1_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_1_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_1_5"><i class="fas fa-star"></i></span>
+                    <a href="">
+                        <div class="popular_1"> <!--most_popular_1_division-->
+                            <img class="popular_1" src="Images/Populaires/large/hotel_matin.jpg" alt="hotel le soleil du matin">
+                            <div class="popular_1_text">
+                                <h3 class="popular_1_text">H&ocirc;tel Le soleil du matin</h3>
+                                <p class="popular_1_text">Nuit &agrave; partir de 128&euro;</p>
+                                <div class="stars_popular_1">
+                                    <span class="stars_popular_1_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_1_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_1_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_1_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_1_5"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>       
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="popular_2"> <!--most_popular_2_division-->
+                            <img class="popular_2" src="Images/Populaires/large/coeur_eau.jpg" alt="au coeur de l'eau chambres d'hotes">
+                            <div class="popular_2_text">
+                                <h3 class="popular_2_text">Au coeur de l&apos;eau Chambres D&apos;h&ocirc;tes</h3>
+                                <p class="popular_2_text">Nuit &agrave; partir de 71&euro;</p>
+                                <div class="stars_popular_2">
+                                    <span class="stars_popular_2_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_2_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_2_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_2_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_2_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="popular_2"> <!--most_popular_2_division-->
-                        <img class="popular_2" src="Images/Populaires/large/coeur_eau.jpg" alt="au coeur de l'eau chambres d'hotes">
-                        <div class="popular_2_text">
-                            <h3 class="popular_2_text">Au coeur de l&apos;eau Chambres D&apos;h&ocirc;tes</h3>
-                            <p class="popular_2_text">Nuit &agrave; partir de 71&euro;</p>
-                            <div class="stars_popular_2">
-                                <span class="stars_popular_2_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_2_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_2_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_2_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_2_5"><i class="fas fa-star"></i></span>
+                    </a>
+                    <a href="">
+                        <div class="popular_3"> <!--most_poupular_3_division-->
+                            <img class="popular_3" src="Images/Populaires/large/hotel_bleu_blanc.jpg" alt="hotel tout bleu et blanc">
+                            <div class="popular_3_text">
+                                <h3 class="popular_3_text">H&ocirc;tel Tout bleu et Blanc</h3>
+                                <p class="popular_3_text">Nuit &agrave; partir de 68&euro;</p>
+                                <div class="stars_popular_3">
+                                    <span class="stars_popular_3_1"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_3_2"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_3_3"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_3_4"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_3_5"><i class="fas fa-star"></i></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="popular_3"> <!--most_poupular_3_division-->
-                        <img class="popular_3" src="Images/Populaires/large/hotel_bleu_blanc.jpg" alt="hotel tout bleu et blanc">
-                        <div class="popular_3_text">
-                            <h3 class="popular_3_text">H&ocirc;tel Tout bleu et Blanc</h3>
-                            <p class="popular_3_text">Nuit &agrave; partir de 68&euro;</p>
-                            <div class="stars_popular_3">
-                                <span class="stars_popular_3_1"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_3_2"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_3_3"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_3_4"><i class="fas fa-star"></i></span>
-                                <span class="stars_popular_3_5"><i class="fas fa-star"></i></span>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </section>
             <section id="section_3"> <!--activities_section-->
                 <div id="activities">
                     <h1 class="section_3">Activit&eacute;s &agrave; Marseille</h1>
-                    <div class="old_harbor"> <!--activities_1 division-->
-                        <img class="old_harbor" src="Images/Activites/large/vieux_port.jpg" alt="vieux port">
-                        <h3 class="old_harbor">Vieux Port</h3>
-                    </div>
+                    <a href="">
+                        <div class="old_harbor"> <!--activities_1 division-->
+                            <img class="old_harbor" src="Images/Activites/large/vieux_port.jpg" alt="vieux port">
+                            <h3 class="old_harbor">Vieux Port</h3>
+                        </div>
+                    </a>
                     <div class="activities_vertical_1"> <!--vertical_1 division-->
-                        <div class="pomegues_fort"> <!--activities_2 division-->
-                            <img class="pomegues_fort" src="Images/Activites/large/fort_pomegues.jpg" alt="fort de pomegues">
-                            <h3 class="pomegues_fort">Fort de Pom&egrave;gues</h3>
-                        </div>
-                        <div class="frioul_island"> <!--activities_3 division-->
-                            <img class="frioul_island" src="Images/Activites/large/iles_frioul.jpg" alt="iles du frioul">
-                            <h3 class="frioul_island">&Icirc;les du Frioul</h3>
-                        </div>
+                        <a href="">
+                            <div class="pomegues_fort"> <!--activities_2 division-->
+                                <img class="pomegues_fort" src="Images/Activites/large/fort_pomegues.jpg" alt="fort de pomegues">
+                                <h3 class="pomegues_fort">Fort de Pom&egrave;gues</h3>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="frioul_island"> <!--activities_3 division-->
+                                <img class="frioul_island" src="Images/Activites/large/iles_frioul.jpg" alt="iles du frioul">
+                                <h3 class="frioul_island">&Icirc;les du Frioul</h3>
+                            </div>
+                        </a>
                     </div>
-                    <div class="calanques_national_park"> <!--activities_4 division-->
-                        <img class="calanques_national_park" src="Images/Activites/large/parc_national_calanques.jpg" alt="parc national des calanques">
-                        <h3 class="calanques_national_park">Parc National des Calanques</h3>
-                    </div>
+                    <a href="">
+                        <div class="calanques_national_park"> <!--activities_4 division-->
+                            <img class="calanques_national_park" src="Images/Activites/large/parc_national_calanques.jpg" alt="parc national des calanques">
+                            <h3 class="calanques_national_park">Parc National des Calanques</h3>
+                        </div>
+                    </a>
                     <div class="activities_vertical_2"> <!--vertical_2 division-->
-                        <div class="notre_dame"> <!--activities_5 division-->
-                            <img class="notre_dame" src="Images/Activites/large/notre_dame.jpg" alt="notre dame de la garde">
-                            <h3 class="notre_dame">Notre-Dame-de-la-Garde</h3>
-                        </div>
-                        <div class="longchamp_park"> <!--activities_6 division-->
-                            <img class="longchamp_park" src="Images/Activites/large/parc_longchamp.jpg" alt="parc longchamp">
-                            <h3 class="longchamp_park">Parc Longchamp</h3>
-                        </div>
+                        <a href="">
+                            <div class="notre_dame"> <!--activities_5 division-->
+                                <img class="notre_dame" src="Images/Activites/large/notre_dame.jpg" alt="notre dame de la garde">
+                                <h3 class="notre_dame">Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="longchamp_park"> <!--activities_6 division-->
+                                <img class="longchamp_park" src="Images/Activites/large/parc_longchamp.jpg" alt="parc longchamp">
+                                <h3 class="longchamp_park">Parc Longchamp</h3>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>
