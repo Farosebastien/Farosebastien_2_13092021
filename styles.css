@@ -29,10 +29,7 @@ footer, #most_popular
     background-color: #DEEBFF;
     color: #0065FC;
 }
-.search_button
-{
-    background-color: #0065FC;
-}
+
 
 
 
@@ -81,8 +78,7 @@ footer, #most_popular
         font-weight: bold;
         position: absolute;
         left: 1293px;
-        padding-top: 33px;
-        
+        padding-top: 33px;   
     }
     h1.section_1
     {
@@ -116,8 +112,28 @@ footer, #most_popular
         position: absolute;
         left: 109px;
         border: 1px solid #F2F2F2;
+        font-size: 18px;
+        font-weight: bold;
     }
-
+    ::placeholder
+    {
+        color: black;
+        position: absolute;
+        left: 17px;
+        top: 17px;        
+    }
+    button
+    {
+        position: absolute;
+        left: 340px;
+        width: 134px;
+        height: 52px;
+        border: 1px solid #0065FC;
+        border-radius: 0px 12px 12px 0px;
+        font-size: 18px;
+        text-align: center;
+        background-color: #0065FC;
+    }
     .search_text
     {
         color: white;
@@ -125,6 +141,21 @@ footer, #most_popular
     .search_icon
     {
         visibility: hidden;
+    }
+    div.filters
+    {
+        display: flex;
+        margin-left: 63px;
+        font-size: 18px;
+    }
+    div.filters>h2
+    {
+        font-size: 18px;
+    }
+    .eco_filter, .fam_filter, .romantic_filter, .pets_filter
+    {
+        display: flex;
+
     }
     #hosting
     {
