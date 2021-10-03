@@ -3,11 +3,6 @@ body
     font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
-h1
-{
-    font-size: 22px;
-    font-weight: bold;
-}
 .hosting_link, .activities_link
 {
     color: black;
@@ -35,7 +30,7 @@ footer, #most_popular
 
 
 
-@media  screen and (min-width: 768px)
+@media  screen and (min-width: 992px)
 {
     #container
     {
@@ -80,11 +75,13 @@ footer, #most_popular
         left: 1293px;
         padding-top: 33px;   
     }
-    h1.section_1
+    .section_1_title
     {
         margin: 39.26px 0px 0px 54px;
+        font-size: 22px;
+        font-weight: bold;
     }
-    p.section_1
+    .section_1_p
     {
         margin: 8px 0px 0px 54px;
     }
@@ -112,6 +109,7 @@ footer, #most_popular
         position: absolute;
         left: 109px;
         border: 1px solid #F2F2F2;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: bold;
     }
@@ -120,7 +118,7 @@ footer, #most_popular
         color: black;
         position: absolute;
         left: 17px;
-        top: 17px;        
+        top: 15px;        
     }
     button
     {
@@ -130,32 +128,71 @@ footer, #most_popular
         height: 52px;
         border: 1px solid #0065FC;
         border-radius: 0px 12px 12px 0px;
-        font-size: 18px;
-        text-align: center;
         background-color: #0065FC;
     }
     .search_text
     {
         color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
     }
-    .search_icon
+    .fab.fa-sistrix
     {
         visibility: hidden;
     }
-    div.filters
+    .filters
     {
         display: flex;
         margin-left: 63px;
-        font-size: 18px;
+        margin-top: 30px;
+        width: 929px;
+        justify-content: space-between;
+        
     }
-    div.filters>h2
+    .filter_icons
+    {
+        width: 46px;
+        height: 46px;
+        border: 3px solid #DEEBFF;
+        border-radius: 23px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .filters_title
     {
         font-size: 18px;
+        font-weight: bold;
     }
     .eco_filter, .fam_filter, .romantic_filter, .pets_filter
     {
         display: flex;
+        height: 46px;
+        border: 3px solid #F2F2F2;
+        border-radius: 23px;
+        align-items: center;
 
+    }
+    .money, .child, .heart, .dog
+    {
+        font-size: 18px; 
+    }
+    .eco_filter
+    {
+        width: 194px;
+    }
+    .fam_filter
+    {
+        width: 153px;
+    }
+    .romantic_filter
+    {
+        width: 185px;
+    }
+    .pets_filter
+    {
+        width: 243px;
     }
     #hosting
     {
@@ -167,6 +204,10 @@ footer, #most_popular
 
 
 }
+@media (min-width: 769px) and (max-width: 991px)
+{
+
+}
 
 @media (max-width: 768px)
 {
@@ -174,7 +215,7 @@ footer, #most_popular
     {
         width: 375px;
     }
-    .search_icon
+    .fab.fa-sistrix
     {
         color: white;
     }
