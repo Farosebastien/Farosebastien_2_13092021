@@ -151,32 +151,41 @@ footer, #most_popular
         justify-content: space-between;
         
     }
-    .filter_icons
-    {
-        width: 46px;
-        height: 46px;
-        border: 3px solid #DEEBFF;
-        border-radius: 23px;
-        font-size: 18px;
-        text-align: center;
-    }
     .filters_title
     {
         font-size: 18px;
-        font-weight: bold;
+    }
+    .filter_icons
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0px 18px 0px -2px;
+        width: 46px;
+        height: 46px;
+        border: 2px solid #DEEBFF;
+        border-radius: 23px;
+        font-size: 18px;
     }
     .eco_filter, .fam_filter, .romantic_filter, .pets_filter
     {
         display: flex;
-        height: 46px;
+        height: 44px;
         border: 3px solid #F2F2F2;
         border-radius: 23px;
         align-items: center;
 
     }
+    .fa.fa-solid.fa-money-bill-wave, .fa.fa-solid.fa-child, .fa.fa-solid.fa-heart, .fa.fa-solid.fa-dog
+    {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+    }
     .money, .child, .heart, .dog
     {
-        font-size: 18px; 
+        font-size: 18px;
+        display: flex;
     }
     .eco_filter
     {
@@ -194,9 +203,41 @@ footer, #most_popular
     {
         width: 243px;
     }
+    .info
+    {
+        margin: 20px 0px 0px 58px;
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .fas.fa-info
+    {
+        color: #0065FC;
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #F2F2F2;
+        border-radius: 13px;
+    }
     #hosting
     {
         background-color: #F2F2F2;
+        width: 878px;
+        height: 625px;
+        margin: 25px 0px 0px 50px;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+    }
+    .hosting_title
+    {
+        margin: 40px 0px 0px 40px;
+        width: 350px;
+        height: 36px;
     }
     
     
