@@ -35,10 +35,14 @@ footer, #most_popular
     #container
     {
         width: 1440px;
+        height: 1883px;
+        display: flex;
+        flex-direction: column;
 
     }
     header
     {
+        height: 84px;
         display: flex;
         
     }
@@ -74,6 +78,10 @@ footer, #most_popular
         position: absolute;
         left: 1293px;
         padding-top: 33px;   
+    }
+    #section_1
+    {
+        height: 315px;
     }
     .section_1_title
     {
@@ -175,6 +183,10 @@ footer, #most_popular
         align-items: center;
 
     }
+    .eco_filter:hover, .fam_filter:hover, .romantic_filter:hover, .pets_filter:hover
+    {
+        background-color: #DEEBFF;
+    }
     .fa.fa-solid.fa-money-bill-wave, .fa.fa-solid.fa-child, .fa.fa-solid.fa-heart, .fa.fa-solid.fa-dog
     {
         font-size: 18px;
@@ -224,6 +236,11 @@ footer, #most_popular
         border: 2px solid #F2F2F2;
         border-radius: 13px;
     }
+    #section_2
+    {
+        display: flex;
+        justify-content: space-between;
+    }
     #hosting
     {
         background-color: #F2F2F2;
@@ -231,20 +248,393 @@ footer, #most_popular
         height: 625px;
         margin: 25px 0px 0px 50px;
         border: 1px solid #F2F2F2;
-        border-radius: 15px;
+        border-radius: 16px;
     }
     .hosting_title
     {
         margin: 40px 0px 0px 40px;
         width: 350px;
         height: 36px;
+        font-size: 22px;
     }
-    
-    
-    
+    .hosting_line_1
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+    .hosting_line_2
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
 
-
+    }
+    .hosting_1, .hosting_2, .hosting_3, .hosting_4, .hosting_5, .hosting_6
+    {
+        width: 236px;
+        height: 190px;
+        border: 5px solid white;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 5px #E3E3E3;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .card_link
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .hosting_1
+    {
+        margin-left: 40px;
+        background-image: url("Images/Hebergements/medium/auberge_cannebiere.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_2
+    {
+        background-image: url("Images/Hebergements/medium/hotel_port.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_3
+    {
+        margin-right: 40px;
+        background-image: url("Images/Hebergements/medium/hotel_mouette.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_4
+    {
+        margin-left: 40px;
+        background-image: url("Images/Hebergements/medium/hotel_mer.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_5
+    {
+        background-image: url("Images/Hebergements/medium/auberge_panier.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_6
+    {
+        margin-right: 40px;
+        background-image: url("Images/Hebergements/medium/hotel_amina.jpg");
+        background-size: 236px 115px;
+        background-repeat: no-repeat;
+    }
+    .hosting_footer
+    {
+        font-size: 18px;
+        margin: 39px 0px 0px 44px;
+    }
+    .hosting_1_title, .hosting_2_title, .hosting_3_title, .hosting_4_title, .hosting_5_title, .hosting_6_title
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 16px;
+    }
+    .hosting_1_price, .hosting_2_price, .hosting_3_price, .hosting_4_price, .hosting_5_price, .hosting_6_price
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 14px;
+    }
+    .stars_1, .stars_2, .stars_3, .stars_4, .stars_5, .stars_6
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 12px;
+        display: flex;
+    }
+    .stars
+    {
+        color: #0065FC;
+    }
+    .stars_grey
+    {
+        color: #F2F2F2;
+    }
+    #most_popular
+    {
+        width: 418px;
+        height: 625px;
+        margin: 25px 50px 0px 0px;
+        border: 1px solid #F2F2F2;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .most_popular_head
+    {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .most_popular_title
+    {
+        margin: 31px 0px 0px 40px;
+        width: 200px;
+        font-size: 22px;
+    }
+    .chart_line
+    {
+        margin: 31px 40px 0px 0px;
+        font-size: 22px;
+    }
+    .popular_cards
+    {
+        height: 545px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popular_1, .popular_2, .popular_3
+    {
+        width: 334px;
+        height: 135px;
+        border: 5px solid white;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 5px #E3E3E3;
+        margin-left: 36px;
+        background-color: white;
+        display: flex;
+        justify-content: right;
+    }
+    .popular_1
+    {
+        margin-top: 16px;
+        background-image: url("Images/Populaires/medium/hotel_matin.jpg");
+        background-size: 128px 135px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .popular_2
+    {
+        background-image: url("Images/Populaires/medium/coeur_eau.jpg");
+        background-size: 128px 135px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .popular_3
+    {
+        margin-bottom: 34px;
+        background-image: url("Images/Populaires/medium/hotel_bleu_blanc.jpg");
+        background-size: 128px 135px;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .popular_1_text, .popular_2_text, .popular_3_text
+    {
+        width: 150px;
+        margin-right: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popular_1_title, .popular_2_title, .popular_3_title
+    {
+        margin: 16px 0px 0px 0px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .popular_1_price, .popular_2_price, .popular_3_price
+    {
+        margin: 0px 0px 28px 0px;
+        font-size: 14px;
+    }
+    .stars_popular_1, .stars_popular_2, .stars_popular_3
+    {
+        margin: 0px 0px 10px 0px;
+        font-size: 12px;
+        display: flex;
+    }
+    .stars_popular
+    {
+        color: #0065FC;
+    }
+    .stars_popular_grey
+    {
+        color: #F2F2F2;
+    }
+    #section_3
+    {
+        height: 614px;
+    }
+    .activities_title
+    {
+        width: 300px;
+        font-size: 22px;
+        margin: 61px 0px 0px 50px;
+    }
+    .activities_cards
+    {
+        margin: 22px 0px 0px 50px;
+        width: 1338px;
+        height: 446px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .activities_vertical_1, .activities_vertical_2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .old_harbor
+    {
+        width: 300px;
+        height: 444px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/vieux_port.jpg");
+        background-size: 300px 386px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .old_harbor_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .pomegues_fort
+    {
+        width: 300px;
+        height: 235px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/fort_pomegues.jpg");
+        background-size: 300px 180px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .pomegues_fort_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .frioul_island
+    {
+        width: 300px;
+        height: 164px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/iles_frioul.jpg");
+        background-size: 300px 110px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; 
+    }
+    .frioul_island_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .calanques_national_park
+    {
+        width: 300px;
+        height: 444px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/parc_national_calanques.jpg");
+        background-size: 300px 386px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .calanques_national_park_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .notre_dame
+    {
+        width: 300px;
+        height: 192px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/notre_dame.jpg");
+        background-size: 300px 140px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .notre_dame_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .longchamp_park
+    {
+        width: 300px;
+        height: 208px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        background-image: url("Images/Activites/medium/parc_longchamp.jpg");
+        background-size: 300px 155px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .longchamp_park_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    footer
+    {
+        height: 218px;
+        display: flex;
+        
+        
+    }
+    .footer_1
+    {
+        margin-left: 50px;
+        width: 452px; 
+    }
+    .footer_2
+    {
+        width: 456px;
+    }
+    .footer_3
+    {
+        margin-right: 350px;
+    }
+    .footer_1_title, .footer_2_title, .footer_3_title
+    {
+        font-size: 16px;
+        margin-top: 47px;
+    }
+    .footer_1_text_1, .footer_2_text_1, .footer_3_text_1
+    {
+        margin-top: 20px;
+    }
 }
+
 @media (min-width: 769px) and (max-width: 991px)
 {
 
