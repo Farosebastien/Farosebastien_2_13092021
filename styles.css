@@ -28,8 +28,8 @@ footer, #most_popular
 {
     #container
     {
-        width: 1440px;
-        height: 1883px;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
 
@@ -275,7 +275,7 @@ footer, #most_popular
     {
         width: 236px;
         height: 190px;
-        border: 5px solid white;
+        border: 4px solid white;
         border-radius: 16px;
         box-shadow: 0 0 5px 5px #E3E3E3;
         background-color: white;
@@ -291,43 +291,96 @@ footer, #most_popular
     .hosting_1
     {
         margin-left: 40px;
-        background-image: url("Images/Hebergements/large/auberge_cannebiere.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
     }
-    .hosting_2
+    .hosting_1_img
     {
-        background-image: url("Images/Hebergements/large/hotel_port.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/auberge_cannebiere.jpg");
+        background-position: 0px -24px;
+        background-size: cover;
+        margin-bottom: 5px;
+    }
+    .hosting_2_img
+    {
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/hotel_port.jpg");
+        background-position: 0px -20px;
+        background-size: cover;
+        margin-bottom: 5px;
     }
     .hosting_3
     {
         margin-right: 40px;
-        background-image: url("Images/Hebergements/large/hotel_mouette.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
+    }
+    .hosting_3_img
+    {
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/hotel_mouette.jpg");
+        background-position: -5px -20px;
+        background-size: cover;
+        margin-bottom: 5px;
     }
     .hosting_4
     {
         margin-left: 40px;
-        background-image: url("Images/Hebergements/large/hotel_mer.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
     }
-    .hosting_5
+    .hosting_4_img
     {
-        background-image: url("Images/Hebergements/large/auberge_panier.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/hotel_mer.jpg");
+        background-position: 0px -50px;
+        background-size: cover;
+        margin-bottom: 5px;
+    }
+    .hosting_5_img
+    {
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/auberge_panier.jpg");
+        background-position: 0px -8px;
+        background-size: cover;
+        margin-bottom: 5px;
     }
     .hosting_6
     {
         margin-right: 40px;
-        background-image: url("Images/Hebergements/large/hotel_amina.jpg");
-        background-size: 236px 115px;
-        background-repeat: no-repeat;
-
+    }
+    .hosting_6_img
+    {
+        overflow: hidden;
+        width: 234px;
+        height: 113px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/x-large/hotel_amina.jpg");
+        background-position: -5px -115px;
+        background-size: cover;
+        margin-bottom: 5px;
     }
     .hosting_footer
     {
@@ -408,25 +461,46 @@ footer, #most_popular
     .popular_1
     {
         margin-top: 16px;
-        background-image: url("Images/Populaires/large/hotel_matin.jpg");
-        background-size: 128px 135px;
-        background-repeat: no-repeat;
-        background-position: left;
     }
-    .popular_2
+    .popular_1_img
     {
-        background-image: url("Images/Populaires/large/coeur_eau.jpg");
-        background-size: 128px 135px;
-        background-repeat: no-repeat;
-        background-position: left;
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/x-large/hotel_matin.jpg");
+        background-position: -35px 0px;
+        background-size: cover;
+        margin-right: 18px;
+    }
+    .popular_2_img
+    {
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/x-large/coeur_eau.jpg");
+        background-position: -20px 0px;
+        background-size: cover;
+        margin-right: 18px;
     }
     .popular_3
     {
         margin-bottom: 34px;
-        background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
-        background-size: 128px 135px;
-        background-repeat: no-repeat;
-        background-position: left;
+    }
+    .popular_3_img
+    {
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/x-large/hotel_bleu_blanc.jpg");
+        background-position: -20px 0px;
+        background-size: cover;
+        margin-right: 18px;
     }
     .popular_1_text, .popular_2_text, .popular_3_text
     {
