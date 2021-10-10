@@ -8,15 +8,15 @@ body
     color: black;
     text-decoration: none;
 }
-
-footer, #most_popular
-{
-    background-color: #F2F2F2;
-}
 .filter_icons
 {
     background-color: #DEEBFF;
     color: #0065FC;
+}
+footer, #most_popular
+{
+    background-color: #F2F2F2;
+
 }
 
 @media  screen and (min-width: 992px)
@@ -88,6 +88,7 @@ footer, #most_popular
     form
     {
         margin: 18px 0px 0px 54px;
+        display: flex;
     }
     .fas.fa-map-marker-alt
     {
@@ -105,8 +106,6 @@ footer, #most_popular
         height: 50px;
         padding: 0px;
         margin: 0px;
-        position: absolute;
-        left: 109px;
         border: 1px solid #F2F2F2;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -121,8 +120,8 @@ footer, #most_popular
     }
     button
     {
-        position: absolute;
-        left: 340px;
+        display: flex;
+        align-items: center;
         width: 134px;
         height: 52px;
         border: 1px solid #0065FC;
@@ -143,15 +142,19 @@ footer, #most_popular
     }
     .filters
     {
+        display:flex;
+    }
+    .filters_icons_division
+    {
         display: flex;
-        margin-left: 63px;
-        margin-top: 30px;
-        max-width: 929px;
-        justify-content: space-between;  
+        justify-content: space-between;
+        min-width: 64%; 
+        margin-top:32px 
     }
     .filters_title
     {
         font-size: 18px;
+        margin: 45px 34px 0px 63px;
     }
     .filter_icons
     {
@@ -167,8 +170,8 @@ footer, #most_popular
     .eco_filter, .fam_filter, .romantic_filter, .pets_filter
     {
         display: flex;
-        height: 44px;
-        border: 3px solid #F2F2F2;
+        height: 46px;
+        border: 2px solid #D9D9D9;
         border-radius: 23px;
         align-items: center;
     }
@@ -178,7 +181,6 @@ footer, #most_popular
     }
     .fa.fa-solid.fa-money-bill-wave, .fa.fa-solid.fa-child, .fa.fa-solid.fa-heart, .fa.fa-solid.fa-dog
     {
-        font-size: 18px;
         display: flex;
         align-items: center;
     }
@@ -201,7 +203,7 @@ footer, #most_popular
     }
     .pets_filter
     {
-        width: 243px;
+        width: 240px;
     }
     .info
     {
@@ -214,14 +216,14 @@ footer, #most_popular
     {
         color: #0065FC;
         font-size: 12px;
-        width: 24px;
-        height: 24px;
+        width: 25px;
+        height: 25px;
         margin-top: 12px;
         margin-bottom: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid #F2F2F2;
+        border: 1px solid #D9D9D9;
         border-radius: 13px;
     }
     #section_2
@@ -401,7 +403,7 @@ footer, #most_popular
     }
     .stars_grey
     {
-        color: #F2F2F2;
+        color: #D9D9D9;
     }
     #most_popular
     {
@@ -529,7 +531,7 @@ footer, #most_popular
     }
     .stars_popular_grey
     {
-        color: #F2F2F2;
+        color: #D9D9D9;
     }
     #section_3
     {
@@ -756,7 +758,7 @@ footer, #most_popular
     }
     .footer_1_title, .footer_2_title, .footer_3_title
     {
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 47px;
     }
     .footer_1_text_1, .footer_2_text_1, .footer_3_text_1
@@ -773,21 +775,21 @@ footer, #most_popular
 {
     #container
     {
-        width: 375px;
-        height: 4550px;
+        max-width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
     }
     header
     {
-        height: 129px;
+        height: 128px;
         display: flex;
         flex-wrap: wrap;
     }
     .logo
     {
         width: 94px;
-        margin: 16px 0px 0px 20px;
+        margin: 20px 0px 0px 20px;
         display: flex;
         align-items: flex-start;
         order: 1;
@@ -796,7 +798,7 @@ footer, #most_popular
     {
         display: flex;
         height: 16px;
-        margin: 42px 0px 0px 170px;
+        margin: 42px 0px 10px 170px;
         color: #0065FC;
         font-weight: bold;
         align-items: flex-end;
@@ -806,7 +808,7 @@ footer, #most_popular
     {
         display: flex;
         align-self: flex-end;
-        width: 375px;
+        width: 100%;
         order: 3;
         justify-content: space-between;
     }
@@ -815,14 +817,348 @@ footer, #most_popular
         width: 187px;
         display: flex;
         flex-direction: row;
-        align-content: center;
+        border-bottom-style: solid;
+        border-bottom-color: #F2F2F2;
+        border-bottom-width: 3px;
+        text-decoration: none;
+    }
+    a.hosting_link
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 19px;
+        margin-right: 19px;
+        padding-left: 19px;
+        padding-right: 19px;
+        height: 41px;
+        border-bottom: none;
+    }
+    a.activities_link
+    {
+        display: flex;
+        align-items: center;
+        margin-left: 31px;
+        margin-right: 31px;
+        padding-left: 31px;
+        padding-right: 31px;
+        height: 41px;
+        border-bottom: none;
+    }
+    .hosting_link:hover, .activities_link:hover
+    {
+        color: #0065FC;
+        border-bottom-style: solid;
+        border-bottom-color: #0065FC;
+        border-bottom-width: 3px;
+    }
+    a.hosting_link:hover, a.activities_link:hover
+    {
+        border-bottom: none;
+    }
+    .section_1_title
+    {
+        margin: 31px 0px 0px 20px;
+        width: 300px;
+        font-size: 22px;
+    }
+    .section_1_p
+    {
+        margin: 13px 0px 0px 20px;
+    }
+    form
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .fas.fa-map-marker-alt
+    {
+        font-size: 18px;
+        color: black;
+        padding: 16px 20px 16px 20px;
+        margin: 0px;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 12px 0px 0px 12px;
+    }
+    input
+    {
+        width: 246px;
+        height: 50px;
+        padding: 0px;
+        margin: 0px;
+        border: 1px solid #F2F2F2;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    ::placeholder
+    {
+        color: black;
+        position: absolute;
+        left: 17px;
+        top: 15px;        
+    }
+    button
+    {
+        width: 50px;
+        height: 52px;
+        border: 1px solid #0065FC;
+        border-radius: 12px 12px 12px 12px;
+        background-color: #0065FC;
+        margin-left: -12px;
     }
     .fab.fa-sistrix
     {
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
         color: white;
     }
     .search_text
     {
         visibility: hidden;
+    }
+    .filters_icons_division
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .filters_title
+    {
+        font-size: 18px;
+        margin: 36px 0px 6px 22px;
+    }
+    .filter_icons
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0px 12px 0px -2px;
+        width: 46px;
+        height: 46px;
+        border: 2px solid #DEEBFF;
+        border-radius: 23px;
+        font-size: 18px;
+    }
+    .eco_filter, .fam_filter, .romantic_filter, .pets_filter
+    {
+        display: flex;
+        height: 46px;
+        border: 2px solid #D9D9D9;
+        border-radius: 23px;
+        align-items: center;
+    }
+    .eco_filter:hover, .fam_filter:hover, .romantic_filter:hover, .pets_filter:hover
+    {
+        background-color: #DEEBFF;
+    }
+    .fa.fa-solid.fa-money-bill-wave, .fa.fa-solid.fa-child, .fa.fa-solid.fa-heart, .fa.fa-solid.fa-dog
+    {
+        display: flex;
+        align-items: center;
+    }
+    .money, .child, .heart, .dog
+    {
+        font-size: 18px;
+        display: flex;
+    }
+    .eco_filter
+    {
+        width: 182px;
+        margin: 12px 0px 0px 19px;
+    }
+    .fam_filter
+    {
+        width: 135px;
+        margin: 12px 0px 0px 10px;
+    }
+    .romantic_filter
+    {
+        width: 164px;
+        margin: 12px 0px 0px 18px;
+    }
+    .pets_filter
+    {
+        width: 216px;
+        margin: 12px 0px 0px 18px;
+    }
+    .info
+    {
+        margin: 18px 0px 0px 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .fas.fa-info
+    {
+        color: #0065FC;
+        font-size: 12px;
+        width: 30px;
+        height: 25px;
+        margin: 12px 12px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D9D9D9;
+        border-radius: 12px;
+    }
+    .card_link
+    {
+        text-decoration: none;
+        color: black;
+    }
+    #section_2
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #most_popular
+    {
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+    }
+    .most_popular_head
+    {
+        display: flex;
+        height: 90px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .most_popular_title
+    {
+        margin: 4px 0px 0px 20px;
+        font-size: 22px;
+    }
+    .chart_line
+    {
+        margin: 4px 20px 0px 0px;
+        font-size: 22px;
+    }
+    .popular_cards
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .popular_1, .popular_2, .popular_3
+    {
+        width: 325px;
+        height: 135px;
+        margin-bottom: 10px;
+        border: 5px solid white;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 5px #E3E3E3;
+        background-color: white;
+        display: flex;
+        justify-content: right;
+    }
+    .popular_1_img
+    {
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/hotel_matin.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 18px;
+    }
+    .popular_2_img
+    {
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/coeur_eau.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 18px;
+    }
+    .popular_3_img
+    {
+        width: 128px;
+        height: 133px;
+        border: 1px solid white;
+        display: inline-block;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 18px;
+    }
+    .popular_1_text, .popular_2_text, .popular_3_text
+    {
+        width: 150px;
+        margin-right: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popular_1_title, .popular_2_title, .popular_3_title
+    {
+        margin: 16px 0px 0px 0px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .popular_1_price, .popular_2_price, .popular_3_price
+    {
+        margin: 0px 0px 28px 0px;
+        font-size: 14px;
+    }
+    .stars_popular_1, .stars_popular_2, .stars_popular_3
+    {
+        margin: 0px 0px 10px 0px;
+        font-size: 12px;
+        display: flex;
+    }
+    .stars_popular
+    {
+        color: #0065FC;
+    }
+    .stars_popular_grey
+    {
+        color: #D9D9D9;
+    }
+    footer
+    {
+        width: 100%;
+        height: 485px;
+        display: flex;  
+        flex-direction: column;
+    }
+    .footer_1
+    {
+        margin-left: 28px;
+    }
+    .footer_2
+    {
+        margin-left: 32px;
+    }
+    .footer_3
+    {
+        margin-left: 32px;
+    }
+    .footer_1_title
+    {
+        font-size: 18px;
+        margin-top: 47px;
+    }
+    .footer_2_title, .footer_3_title
+    {
+        margin-top: 41px;
+        font-size: 18px;
+    }
+    .footer_1_text_3, .footer_2_text_2, .footer_3_text_2
+    {
+        margin-bottom: 0px;
     }
 }
