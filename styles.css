@@ -114,9 +114,8 @@ footer, #most_popular
     ::placeholder
     {
         color: black;
-        position: absolute;
-        left: 17px;
-        top: 15px;        
+        position: relative;
+        left: 17px;      
     }
     button
     {
@@ -895,9 +894,8 @@ footer, #most_popular
     ::placeholder
     {
         color: black;
-        position: absolute;
-        left: 17px;
-        top: 15px;        
+        position: relative;
+        left: 17px;        
     }
     button
     {
@@ -970,17 +968,17 @@ footer, #most_popular
     }
     .fam_filter
     {
-        width: 135px;
+        width: 140px;
         margin: 12px 0px 0px 10px;
     }
     .romantic_filter
     {
-        width: 164px;
+        width: 180px;
         margin: 12px 0px 0px 18px;
     }
     .pets_filter
     {
-        width: 216px;
+        width: 230px;
         margin: 12px 0px 0px 18px;
     }
     .info
