@@ -117,18 +117,6 @@ footer, #most_popular
         position: relative;
         left: 17px;      
     }
-    ::-webkit-input-placeholder
-    {
-        color: black;
-        position: relative;
-        left: 17px;
-    }
-    ::-moz-placeholder
-    {
-        color: black;
-        position: relative;
-        left: 17px;
-    }
     button
     {
         display: flex;
@@ -138,6 +126,7 @@ footer, #most_popular
         border: 1px solid #0065FC;
         border-radius: 0px 12px 12px 0px;
         background-color: #0065FC;
+        padding-left: 15px;
     }
     .search_text
     {
@@ -145,7 +134,6 @@ footer, #most_popular
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
         font-size: 18px;
-        text-align: center;
     }
     .fab.fa-sistrix
     {
@@ -908,18 +896,6 @@ footer, #most_popular
         color: black;
         position: relative;
         left: 17px;        
-    }
-    ::-webkit-input-placeholder
-    {
-        color: black;
-        position: relative;
-        left: 17px;
-    }
-    ::-moz-placeholder
-    {
-        color: black;
-        position: relative;
-        left: 17px;
     }
     button
     {
