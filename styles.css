@@ -114,6 +114,7 @@ footer, #most_popular
     }
     ::placeholder
     {
+        opacity: 1;
         color: black;
         position: relative;
         left: 17px;      
@@ -1142,69 +1143,71 @@ footer, #most_popular
     }
     .popular_cards
     {
-        max-width: 100%;
-        margin: 50px 0px 0px 50px;
-        height: 250px;
+        margin: 50px 50px 0px 50px;
+        height: 300px;
         display: flex;
         justify-content: space-between;
     }
     .popular_1, .popular_2, .popular_3
     {
-        max-width: 80%;
-        height: 200px;
+        width: 89%;
+        height: 250px;
         border-radius: 16px;
         box-shadow: 0 0 5px 5px #E3E3E3;
         background-color: white;
         display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 18px 0px 0px 20px;
     }
     .popular_1_img
     {
-        height: 135px;
-        border-radius: 16px 0px 0px 16px;
+        height: 160px;
+        border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/hotel_matin.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 23px 5px 5px;
+        margin: 5px 5px 5px 5px;
     }
     .popular_2_img
     {
-        height: 135px;
-        border-radius: 16px 0px 0px 16px;
+        height: 160px;
+        border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/coeur_eau.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 23px 5px 5px;
+        margin: 5px 5px 5px 5px;
     }
     .popular_3_img
     {
-        height: 135px;
-        border-radius: 16px 0px 0px 16px;
+        height: 160px;
+        border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 23px 5px 5px;
+        margin: 5px 5px 5px 5px;
     }
     .popular_1_text, .popular_2_text, .popular_3_text
     {
         width: 150px;
-        margin-right: 36px;
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     .popular_1_title, .popular_2_title, .popular_3_title
     {
-        margin: 16px 0px 0px 0px;
+        margin: 0px 0px 5px 0px;
         font-size: 16px;
         display: flex;
         flex-wrap: wrap;
     }
     .popular_1_price, .popular_2_price, .popular_3_price
     {
-        margin: 0px 0px 28px 0px;
+        margin: 0px 0px 5px 0px;
         font-size: 14px;
     }
     .stars_popular_1, .stars_popular_2, .stars_popular_3
