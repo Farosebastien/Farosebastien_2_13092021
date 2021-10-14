@@ -19,7 +19,7 @@ footer, #most_popular
 
 }
 
-@media  screen and (min-width: 992px)
+@media  screen and (min-width: 1280px)
 {
     #container
     {
@@ -750,11 +750,480 @@ footer, #most_popular
     }
 }
 
-@media (min-width: 769px) and (max-width: 991px)
+@media (min-width: 760px) and (max-width: 1279px)
 {
+    #container
+    {
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header
+    {
+        width: 100%;
+        height: 84px;  
+    }
+    .logo
+    {
+        width: 94px;
+        margin: 44px 0px 0px 54px;   
+    }
+    .inscription
+    {
+        float: right;
+        color: #0065FC;
+        font-weight: bold;
+        padding-top: 33px;
+        margin-left: 35px;
+        padding-right: 78px;
+    }
+    nav
+    {
+        display: flex;     
+        width: 310px;
+        float: right;
+    }
+    .hosting_link:hover, .activities_link:hover
+    {
+        color: #0065FC;
+        border-top-style: solid;
+        border-top-color: #0065FC;
+        border-top-width: 2px;
+    }
+    .hosting_link, .activities_link
+    {
+        padding-top: 49px;
+        margin-top: 0px;
+    }
+    a.hosting_link, a.activities_link
+    {
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+    #section_1
+    {
+        height: 315px;
+    }
+    .section_1_title
+    {
+        margin: 39.26px 0px 0px 54px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .section_1_p
+    {
+        margin: 8px 0px 0px 54px;
+    }
+    form
+    {
+        margin: 18px 0px 0px 54px;
+        display: flex;
+    }
+    .fas.fa-map-marker-alt
+    {
+        font-size: 18px;
+        color: black;
+        padding: 16px 20px 16px 20px;
+        margin: 0px;
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 12px 0px 0px 12px;
+    }
+    input
+    {
+        width: 234px;
+        height: 50px;
+        padding: 0px;
+        margin: 0px;
+        border: 1px solid #F2F2F2;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    ::placeholder
+    {
+        color: black;
+        position: relative;
+        left: 17px;      
+    }
+    button
+    {
+        display: flex;
+        align-items: center;
+        width: 134px;
+        height: 52px;
+        border: 1px solid #0065FC;
+        border-radius: 0px 12px 12px 0px;
+        background-color: #0065FC;
+        padding-left: 15px;
+    }
+    .search_text
+    {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .fab.fa-sistrix
+    {
+        visibility: hidden;
+    }
+    .filters
+    {
+        margin-left: 32px
+    }
+    .filters_icons_division
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .filters_title
+    {
+        font-size: 18px;
+        margin: 36px 0px 6px 22px;
+    }
+    .filter_icons
+    {
+        display: flex;
+        justify-content: center;
+        margin: 0px 12px 0px -2px;
+        width: 46px;
+        height: 46px;
+        border: 2px solid #DEEBFF;
+        border-radius: 23px;
+        font-size: 18px;
+    }
+    .eco_filter, .fam_filter, .romantic_filter, .pets_filter
+    {
+        display: flex;
+        height: 46px;
+        border: 2px solid #D9D9D9;
+        border-radius: 23px;
+        align-items: center;
+    }
+    .eco_filter:hover, .fam_filter:hover, .romantic_filter:hover, .pets_filter:hover
+    {
+        background-color: #DEEBFF;
+    }
+    .fa.fa-solid.fa-money-bill-wave, .fa.fa-solid.fa-child, .fa.fa-solid.fa-heart, .fa.fa-solid.fa-dog
+    {
+        display: flex;
+        align-items: center;
+    }
+    .money, .child, .heart, .dog
+    {
+        font-size: 18px;
+        display: flex;
+    }
+    .eco_filter
+    {
+        width: 182px;
+        margin: 12px 0px 0px 19px;
+    }
+    .fam_filter
+    {
+        width: 140px;
+        margin: 12px 0px 0px 10px;
+    }
+    .romantic_filter
+    {
+        width: 180px;
+        margin: 12px 0px 0px 18px;
+    }
+    .pets_filter
+    {
+        width: 230px;
+        margin: 12px 0px 0px 18px;
+    }
+    .info
+    {
+        margin: 18px 0px 0px 58px;
+        display: flex;
+        flex-direction: row;
+    }
+    .fas.fa-info
+    {
+        color: #0065FC;
+        font-size: 12px;
+        min-width: 25px;
+        height: 25px;
+        margin: 12px 12px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #D9D9D9;
+        border-radius: 12px;
+    }
+    #section_2
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #hosting
+    {
+        background-color: #F2F2F2;
+        height: 900px;
+        margin: 100px 50px 0px 50px;
+        border: 1px solid #F2F2F2;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hosting_cards_body
+    {
+        display: flex;
+        justify-content: space-around;
+        height: 740px;
+    }
+    .hosting_title
+    {
+        margin: 40px 0px 0px 40px;
+        width: 350px;
+        height: 36px;
+        font-size: 22px;
+    }
+    .hosting_line_1
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40%;
+        margin-top: 24px;
+    }
+    .hosting_line_2
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40%;
+        margin-top: 30px;
+    }
+    .hosting_1, .hosting_2, .hosting_3, .hosting_4, .hosting_5, .hosting_6
+    {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 5px #E3E3E3;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .card_link
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .hosting_1_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/auberge_cannebiere.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_2_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/hotel_port.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_3_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/hotel_mouette.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_4_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/hotel_mer.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_5_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/auberge_panier.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_6_img
+    {
+        height: 115px;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Hebergements/large/hotel_amina.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 5px 10px 5px;
+    }
+    .hosting_footer
+    {
+        font-size: 18px;
+        margin: 39px 0px 0px 44px;
+    }
+    .hosting_1_title, .hosting_2_title, .hosting_3_title, .hosting_4_title, .hosting_5_title, .hosting_6_title
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 16px;
+    }
+    .hosting_1_price, .hosting_2_price, .hosting_3_price, .hosting_4_price, .hosting_5_price, .hosting_6_price
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 14px;
+    }
+    .stars_1, .stars_2, .stars_3, .stars_4, .stars_5, .stars_6
+    {
+        margin: 0px 0px 7px 11px;
+        font-size: 12px;
+        display: flex;
+    }
+    .stars
+    {
+        color: #0065FC;
+    }
+    .stars_grey
+    {
+        color: #D9D9D9;
+    }
+    #most_popular
+    {
+        margin: 25px 50px 0px 50px;
+        border: 1px solid #F2F2F2;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+    .most_popular_head
+    {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .most_popular_title
+    {
+        margin: 35px 0px 0px 40px;
+        width: 200px;
+        font-size: 22px;
+    }
+    .chart_line
+    {
+        margin: 31px 40px 0px 0px;
+        font-size: 22px;
+    }
+    .popular_cards
+    {
+        max-width: 100%;
+        margin: 50px 0px 0px 50px;
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .popular_1, .popular_2, .popular_3
+    {
+        max-width: 80%;
+        height: 200px;
+        border-radius: 16px;
+        box-shadow: 0 0 5px 5px #E3E3E3;
+        background-color: white;
+        display: flex;
+    }
+    .popular_1_img
+    {
+        height: 135px;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/hotel_matin.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 23px 5px 5px;
+    }
+    .popular_2_img
+    {
+        height: 135px;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/coeur_eau.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 23px 5px 5px;
+    }
+    .popular_3_img
+    {
+        height: 135px;
+        border-radius: 16px 0px 0px 16px;
+        background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 5px 23px 5px 5px;
+    }
+    .popular_1_text, .popular_2_text, .popular_3_text
+    {
+        width: 150px;
+        margin-right: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popular_1_title, .popular_2_title, .popular_3_title
+    {
+        margin: 16px 0px 0px 0px;
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .popular_1_price, .popular_2_price, .popular_3_price
+    {
+        margin: 0px 0px 28px 0px;
+        font-size: 14px;
+    }
+    .stars_popular_1, .stars_popular_2, .stars_popular_3
+    {
+        margin: 0px 0px 10px 0px;
+        font-size: 12px;
+        display: flex;
+    }
+    .stars_popular
+    {
+        color: #0065FC;
+    }
+    .stars_popular_grey
+    {
+        color: #D9D9D9;
+    }
 }
 
-@media (max-width: 768px)
+@media (max-width: 759px)
 {
     #container
     {
