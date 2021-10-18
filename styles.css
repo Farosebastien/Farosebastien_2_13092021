@@ -846,6 +846,7 @@ footer, #most_popular
     }
     ::placeholder
     {
+        opacity: 1;
         color: black;
         position: relative;
         left: 17px;      
@@ -1623,6 +1624,7 @@ footer, #most_popular
     }
     ::placeholder
     {
+        opacity: 1;
         color: black;
         position: relative;
         left: 17px;        
