@@ -729,7 +729,7 @@ footer, #most_popular
     .footer_1
     {
         margin-left: 50px;
-        width: 452px; 
+        width: 500px; 
     }
     .footer_2
     {
@@ -1117,6 +1117,7 @@ footer, #most_popular
     }
     #most_popular
     {
+        height: 1150px;
         margin: 25px 50px 0px 50px;
         border: 1px solid #F2F2F2;
         border-radius: 16px;
@@ -1144,14 +1145,14 @@ footer, #most_popular
     .popular_cards
     {
         margin: 50px 50px 0px 50px;
-        height: 300px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .popular_1, .popular_2, .popular_3
     {
-        width: 89%;
-        height: 250px;
+        max-width: 100%;
+        height: 300px;
         border-radius: 16px;
         box-shadow: 0 0 5px 5px #E3E3E3;
         background-color: white;
@@ -1162,7 +1163,7 @@ footer, #most_popular
     }
     .popular_1_img
     {
-        height: 160px;
+        height: 202px;
         border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/hotel_matin.jpg");
         background-position: center;
@@ -1172,7 +1173,7 @@ footer, #most_popular
     }
     .popular_2_img
     {
-        height: 160px;
+        height: 202px;
         border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/coeur_eau.jpg");
         background-position: center;
@@ -1182,7 +1183,7 @@ footer, #most_popular
     }
     .popular_3_img
     {
-        height: 160px;
+        height: 202px;
         border-radius: 16px 16px 0px 0px;
         background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
         background-position: center;
@@ -1223,6 +1224,279 @@ footer, #most_popular
     .stars_popular_grey
     {
         color: #D9D9D9;
+    }
+    .activities_title
+    {
+        width: 300px;
+        font-size: 22px;
+        margin: 61px 0px 0px 50px;
+    }
+    .activities_cards
+    {
+        margin: 22px 42px 0px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .activities_vertical_1, .activities_vertical_2
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .old_harbor
+    {
+        max-width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .old_harbor_img
+    {
+        max-width: 100%;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/vieux_port.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .old_harbor_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .pomegues_fort
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .pomegues_fort_img
+    {
+        width: 350px;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/fort_pomegues.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .pomegues_fort_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .frioul_island
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; 
+    }
+    .frioul_island_img
+    {
+        width: 350px;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/iles_frioul.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .frioul_island_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .calanques_national_park
+    {
+        max-width: 100%;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .calanques_national_park_img
+    {
+        max-width: 100%;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/parc_national_calanques.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .calanques_national_park_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .notre_dame
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .notre_dame_img
+    {
+        width: 350px;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/notre_dame.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .notre_dame_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    .longchamp_park
+    {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+        border: 1px solid #EFEFEF;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 0 5px 5px #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .longchamp_park_img
+    {
+        width: 350px;
+        height: 196px;
+        box-shadow: 0 -2px 2px 2px #EFEFEF;
+        display: inline-block;
+        border-radius: 16px 16px 0px 0px;
+        background-image: url("Images/Activites/large/parc_longchamp.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 18px;
+    }
+    .longchamp_park_title
+    {
+        margin: 0px 0px 18px 18px;
+        font-size: 16px;
+    }
+    @media (min-width: 1050px) and (max-width: 1279px)
+    {
+            footer
+        {
+            width: 100%;
+            height: 218px;
+            display: flex;  
+        }
+        .footer_1
+        {
+            margin-left: 50px;
+            width: 500px; 
+        }
+        .footer_2
+        {
+            width: 456px;
+        }
+        .footer_3
+        {
+            min-width: 150px;
+            margin-right: 350px;
+        }
+        .footer_1_title, .footer_2_title, .footer_3_title
+        {
+            font-size: 18px;
+            margin-top: 47px;
+        }
+        .footer_1_text_1, .footer_2_text_1, .footer_3_text_1
+        {
+            margin-top: 20px;
+        }
+    }
+    @media (min-width: 760px) and (max-width: 1049px)
+    {
+            footer
+        {
+            width: 100%;
+            height: 485px;
+            display: flex;  
+            flex-direction: column;
+        }
+        .footer_1
+        {
+            margin-left: 50px;
+        }
+        .footer_2
+        {
+            margin-left: 50px;
+        }
+        .footer_3
+        {
+            margin-left: 50px;
+        }
+        .footer_1_title
+        {
+            font-size: 18px;
+            margin-top: 47px;
+        }
+        .footer_2_title, .footer_3_title
+        {
+            margin-top: 41px;
+            font-size: 18px;
+        }
+        .footer_1_text_3, .footer_2_text_2, .footer_3_text_2
+        {
+            margin-bottom: 0px;
+        }
     }
 }
 
