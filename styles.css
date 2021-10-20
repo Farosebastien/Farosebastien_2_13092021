@@ -270,6 +270,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .card_link
     {
@@ -373,6 +374,7 @@ footer, #most_popular
     {
         margin: 0px 0px 7px 11px;
         font-size: 16px;
+        font-weight: bold;
     }
     .hosting_1_price, .hosting_2_price, .hosting_3_price, .hosting_4_price, .hosting_5_price, .hosting_6_price
     {
@@ -434,7 +436,7 @@ footer, #most_popular
         height: 145px;
         border-radius: 16px;
         box-shadow: 0 0 5px 5px #E3E3E3;
-        margin-left: 36px;
+        margin: 0px 0px 0px 36px;
         background-color: white;
         display: flex;
         justify-content: right;
@@ -495,6 +497,7 @@ footer, #most_popular
     {
         margin: 16px 0px 0px 0px;
         font-size: 16px;
+        font-weight: bold;
         display: flex;
         flex-wrap: wrap;
     }
@@ -551,6 +554,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .old_harbor_img
     {
@@ -569,6 +573,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .pomegues_fort
     {
@@ -581,6 +586,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .pomegues_fort_img
     {
@@ -599,6 +605,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .frioul_island
     {
@@ -611,6 +618,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end; 
+        margin: 0px;
     }
     .frioul_island_img
     {
@@ -629,6 +637,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .calanques_national_park
     {
@@ -641,6 +650,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .calanques_national_park_img
     {
@@ -659,6 +669,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .notre_dame
     {
@@ -671,6 +682,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .notre_dame_img
     {
@@ -689,6 +701,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .longchamp_park
     {
@@ -701,6 +714,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .longchamp_park_img
     {
@@ -719,6 +733,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     footer
     {
@@ -995,7 +1010,7 @@ footer, #most_popular
         justify-content: space-between;
         flex-direction: column;
         width: 40%;
-        margin-top: 24px;
+        margin-top: 30px;
     }
     .hosting_line_2
     {
@@ -1015,6 +1030,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .card_link
     {
@@ -1026,7 +1042,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/auberge_cannebiere.jpg");
+        background-image: url("Images/Hebergements/medium/auberge_cannebiere.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1037,7 +1053,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/hotel_port.jpg");
+        background-image: url("Images/Hebergements/medium/hotel_port.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1048,7 +1064,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/hotel_mouette.jpg");
+        background-image: url("Images/Hebergements/medium/hotel_mouette.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1059,7 +1075,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/hotel_mer.jpg");
+        background-image: url("Images/Hebergements/medium/hotel_mer.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1070,7 +1086,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/auberge_panier.jpg");
+        background-image: url("Images/Hebergements/medium/auberge_panier.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1081,7 +1097,7 @@ footer, #most_popular
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Hebergements/large/hotel_amina.jpg");
+        background-image: url("Images/Hebergements/medium/hotel_amina.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1096,6 +1112,7 @@ footer, #most_popular
     {
         margin: 0px 0px 7px 11px;
         font-size: 16px;
+        font-weight: bold;
     }
     .hosting_1_price, .hosting_2_price, .hosting_3_price, .hosting_4_price, .hosting_5_price, .hosting_6_price
     {
@@ -1166,7 +1183,7 @@ footer, #most_popular
     {
         height: 202px;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Populaires/large/hotel_matin.jpg");
+        background-image: url("Images/Populaires/medium/hotel_matin.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1176,7 +1193,7 @@ footer, #most_popular
     {
         height: 202px;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Populaires/large/coeur_eau.jpg");
+        background-image: url("Images/Populaires/medium/coeur_eau.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1186,7 +1203,7 @@ footer, #most_popular
     {
         height: 202px;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Populaires/large/hotel_bleu_blanc.jpg");
+        background-image: url("Images/Populaires/medium/hotel_bleu_blanc.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1204,6 +1221,7 @@ footer, #most_popular
     {
         margin: 0px 0px 5px 0px;
         font-size: 16px;
+        font-weight: bold;
         display: flex;
         flex-wrap: wrap;
     }
@@ -1257,6 +1275,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .old_harbor_img
     {
@@ -1265,7 +1284,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/vieux_port.jpg");
+        background-image: url("Images/Activites/medium/vieux_port.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1275,6 +1294,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .pomegues_fort
     {
@@ -1288,6 +1308,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .pomegues_fort_img
     {
@@ -1296,7 +1317,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/fort_pomegues.jpg");
+        background-image: url("Images/Activites/medium/fort_pomegues.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1306,6 +1327,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .frioul_island
     {
@@ -1319,6 +1341,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end; 
+        margin: 0px;
     }
     .frioul_island_img
     {
@@ -1327,7 +1350,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/iles_frioul.jpg");
+        background-image: url("Images/Activites/medium/iles_frioul.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1337,6 +1360,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .calanques_national_park
     {
@@ -1350,6 +1374,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .calanques_national_park_img
     {
@@ -1358,7 +1383,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/parc_national_calanques.jpg");
+        background-image: url("Images/Activites/medium/parc_national_calanques.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1368,6 +1393,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .notre_dame
     {
@@ -1381,6 +1407,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .notre_dame_img
     {
@@ -1389,7 +1416,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/notre_dame.jpg");
+        background-image: url("Images/Activites/medium/notre_dame.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1399,6 +1426,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .longchamp_park
     {
@@ -1412,6 +1440,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        margin: 0px;
     }
     .longchamp_park_img
     {
@@ -1420,7 +1449,7 @@ footer, #most_popular
         box-shadow: 0 -2px 2px 2px #EFEFEF;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
-        background-image: url("Images/Activites/large/parc_longchamp.jpg");
+        background-image: url("Images/Activites/medium/parc_longchamp.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1430,6 +1459,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     @media (min-width: 1050px) and (max-width: 1279px)
     {
@@ -1828,6 +1858,7 @@ footer, #most_popular
     {
         margin: 16px 0px 0px 0px;
         font-size: 16px;
+        font-weight: bold;
         display: flex;
         flex-wrap: wrap;
     }
@@ -1955,6 +1986,7 @@ footer, #most_popular
     {
         margin: 0px 0px 7px 11px;
         font-size: 16px;
+        font-weight: bold;
     }
     .hosting_1_price, .hosting_2_price, .hosting_3_price, .hosting_4_price, .hosting_5_price, .hosting_6_price
     {
@@ -1998,7 +2030,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 22px;
+        margin: 0px 0px 22px 0px;
     }
     .old_harbor_img
     {
@@ -2017,6 +2049,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .pomegues_fort
     {
@@ -2029,7 +2062,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 22px;
+        margin: 0px 0px 22px 0px;
     }
     .pomegues_fort_img
     {
@@ -2048,6 +2081,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .frioul_island
     {
@@ -2060,7 +2094,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 22px; 
+        margin: 0px 0px 22px 0px; 
     }
     .frioul_island_img
     {
@@ -2079,6 +2113,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .calanques_national_park
     {
@@ -2091,7 +2126,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 22px;
+        margin: 0px 0px 22px 0px;
     }
     .calanques_national_park_img
     {
@@ -2110,6 +2145,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .notre_dame
     {
@@ -2122,7 +2158,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 22px;
+        margin: 0px 0px 22px 0px;
     }
     .notre_dame_img
     {
@@ -2141,6 +2177,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     .longchamp_park
     {
@@ -2153,7 +2190,7 @@ footer, #most_popular
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        margin-bottom: 47px;
+        margin: 0px 0px 47px 0px;
     }
     .longchamp_park_img
     {
@@ -2172,6 +2209,7 @@ footer, #most_popular
     {
         margin: 0px 0px 18px 18px;
         font-size: 16px;
+        font-weight: bold;
     }
     footer
     {
