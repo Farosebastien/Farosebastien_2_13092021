@@ -272,6 +272,10 @@ footer, #most_popular
         justify-content: flex-end;
         margin: 0px;
     }
+    .hosting_1_figure, .hosting_2_figure, .hosting_3_figure, .hosting_4_figure, .hosting_5_figure, .hosting_6_figure
+    {
+        margin: 0px;
+    }
     .card_link
     {
         text-decoration: none;
@@ -291,7 +295,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_2_img
     {
@@ -303,7 +307,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_3
     {
@@ -319,7 +323,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_4
     {
@@ -335,7 +339,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_5_img
     {
@@ -347,7 +351,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_6
     {
@@ -363,7 +367,7 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin: 5px 5px 6px 5px;
     }
     .hosting_footer
     {
@@ -1032,6 +1036,10 @@ footer, #most_popular
         justify-content: flex-end;
         margin: 0px;
     }
+    .hosting_1_figure, .hosting_2_figure, .hosting_3_figure, .hosting_4_figure, .hosting_5_figure, .hosting_6_figure
+    {
+        margin: 0px;
+    }
     .card_link
     {
         text-decoration: none;
@@ -1039,6 +1047,7 @@ footer, #most_popular
     }
     .hosting_1_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1046,10 +1055,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_2_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1057,10 +1068,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_3_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1068,10 +1081,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_4_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1079,10 +1094,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_5_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1090,10 +1107,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_6_img
     {
+        width: 97%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1101,7 +1120,8 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 5px 5px 10px 5px;
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_footer
     {
@@ -1899,6 +1919,10 @@ footer, #most_popular
         justify-content: flex-end;
         margin: 10px 0px 0px 20px;
     }
+    .hosting_1_figure, .hosting_2_figure, .hosting_3_figure, .hosting_4_figure, .hosting_5_figure, .hosting_6_figure
+    {
+        margin: 0px;
+    }
     .hosting_1
     {
         width: 89%;
@@ -1913,6 +1937,7 @@ footer, #most_popular
     }
     .hosting_1_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1920,10 +1945,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_2_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1931,10 +1958,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_3_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1942,10 +1971,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_4_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1953,10 +1984,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_5_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1964,10 +1997,12 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_6_img
     {
+        width: 98%;
         height: 115px;
         display: inline-block;
         border-radius: 16px 16px 0px 0px;
@@ -1975,7 +2010,8 @@ footer, #most_popular
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0px 5px 10px 5px
+        margin-bottom: 6px;
+        margin-left: 6px;
     }
     .hosting_footer
     {
