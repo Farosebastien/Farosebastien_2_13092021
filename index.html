@@ -10,17 +10,15 @@
         <script src="https://kit.fontawesome.com/5b77b1eedb.js" crossorigin="anonymous"></script>
         <title>Reservia</title>
     </head>
-
     <body>
         <main id="container">
             <header> <!--page header-->
-                <img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia">  <!--reservia logo-->
+                <a href="#"><img class="logo" src="Images/Logo/Reservia.svg" alt="Logo Reservia"></a> <!--reservia logo-->
                 <p class="inscription" style="cursor: pointer;">S'inscrire</p> <!--inscription-->
                 <nav class="navigation">
                     <p class="hosting_link"><a class="hosting_link" href="#hosting">Hébergements</a></p> <!--hosting link-->
                     <p class="activities_link"><a class="activities_link" href="#activities">Activités</a></p> <!--activities link-->
                 </nav>
-                
             </header>
             <section id="section_1"> <!--menu section-->
                 <h1 class="section_1_title">Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -63,14 +61,16 @@
             </section>
             <section id="section_2"> <!--hosting section-->
                 <div id="hosting"> <!--hosting division-->
-                    <h1 class="hosting_title">Hébergements à Marseille</h1>
+                    <header class="hosting_header">
+                        <h2 class="hosting_title">Hébergements à Marseille</h2>
+                    </header>
                     <div class="hosting_cards_body">
                         <div class="hosting_line_1"> <!--first_line_hosting_division-->
-                            <a class="card_link" href="#">
-                                <div class="hosting_1"> <!--hosting_1 division-->
+                            <article class="hosting_1"> <!--hosting_1 division-->
+                                <a class="card_link" href="#">
                                     <figure class="hosting_1_figure">
-                                        <span class="hosting_1_img"></span>                               
-                                        <figcaption class="hosting_1_title">Auberge la Cannebière</figcaption>
+                                        <span class="hosting_1_img"></span>
+                                        <figcaption><h3 class="hosting_1_title">Auberge la Cannebière</h3></figcaption>
                                     </figure>
                                     <p class="hosting_1_price">Nuit à partir de 25&euro;</p>
                                     <div class="stars_1">
@@ -80,29 +80,29 @@
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars_grey"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>
-                            <a class="card_link" href="#">   
-                                <div class="hosting_2"> <!--hosting_2 division-->
+                                </a>
+                            </article>
+                            <article class="hosting_2"> <!--hosting_2 division-->
+                                <a class="card_link" href="#"> 
                                     <figure class="hosting_2_figure">
-                                        <span class="hosting_2_img"></span>                                
-                                        <figcaption class="hosting_2_title">Hôtel du port</figcaption>
+                                        <span class="hosting_2_img"></span>
+                                        <figcaption><h3 class="hosting_2_title">Hôtel du port</h3></figcaption>
                                     </figure>
                                     <p class="hosting_2_price">Nuit à partir de 52&euro;</p>
-                                    <div class="stars_2">
+                                        <div class="stars_2">
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>
-                            <a class="card_link" href="#">
-                                <div class="hosting_3"> <!--hosting_3 division-->
+                                </a>
+                            </article>
+                            <article class="hosting_3"> <!--hosting_3 division-->
+                                <a class="card_link" href="#"> 
                                     <figure class="hosting_3_figure">
-                                        <span class="hosting_3_img"></span>                                
-                                        <figcaption class="hosting_3_title">Hôtel Les Mouettes</figcaption>
+                                        <span class="hosting_3_img"></span>
+                                        <figcaption><h3 class="hosting_3_title">Hôtel Les Mouettes</h3></figcaption>
                                     </figure>
                                     <p class="hosting_3_price">Nuit à partir de 76&euro;</p>
                                     <div class="stars_3">
@@ -112,15 +112,15 @@
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars_grey"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </article>
                         </div>
                         <div class="hosting_line_2"> <!--second_line_hosting_division-->
-                            <a class="card_link" href="#">
-                                <div class="hosting_4"> <!--hosting_4 division-->
+                            <article class="hosting_4"> <!--hosting_4 division-->
+                                <a class="card_link" href="#">
                                     <figure class="hosting_4_figure">
-                                        <span class="hosting_4_img"></span>                                
-                                        <figcaption class="hosting_4_title">Hôtel de la mer</figcaption>
+                                        <span class="hosting_4_img"></span>
+                                        <figcaption><h3 class="hosting_4_title">Hôtel de la mer</h3></figcaption>
                                     </figure>
                                     <p class="hosting_4_price">Nuit à partir de 46&euro;</p>
                                     <div class="stars_4">
@@ -130,13 +130,13 @@
                                         <span class="stars_grey"><i class="fas fa-star"></i></span>
                                         <span class="stars_grey"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>  
-                            <a class="card_link" href="#">  
-                                <div class="hosting_5"> <!--hosting_5 division-->
+                                </a>
+                            </article>
+                                <article class="hosting_5"> <!--hosting_5 division-->
+                                <a class="card_link" href="#">
                                     <figure class="hosting_5_figure">
-                                        <span class="hosting_5_img"></span>                                
-                                        <figcaption class="hosting_5_title">Auberge Le Panier</figcaption>
+                                        <span class="hosting_5_img"></span>
+                                        <figcaption><h3 class="hosting_5_title">Auberge Le Panier</h3></figcaption>
                                     </figure>
                                     <p class="hosting_5_price">Nuit à partir de 23&euro;</p>
                                     <div class="stars_5">
@@ -146,13 +146,13 @@
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars_grey"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>
-                            <a class="card_link" href="#">    
-                                <div class="hosting_6"><!--hostin_6 division-->
+                                </a>
+                            </article>
+                            <article class="hosting_6"> <!--hosting_6 division-->
+                                <a class="card_link" href="#">
                                     <figure class="hosting_6_figure">
-                                        <span class="hosting_6_img"></span>                                
-                                        <figcaption class="hosting_6_title">Hôtel chez Amina</figcaption>
+                                        <span class="hosting_6_img"></span>
+                                        <figcaption><h3 class="hosting_6_title">Hôtel chez Amina</h3></figcaption>
                                     </figure>
                                     <p class="hosting_6_price">Nuit à partir de 96&euro;</p>
                                     <div class="stars_6">
@@ -162,66 +162,66 @@
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                         <span class="stars"><i class="fas fa-star"></i></span>
                                     </div>
-                                </div>
-                            </a>    
+                                </a>
+                            </article>
                         </div>
                     </div>
-                    <h2 class="hosting_footer">Afficher plus</h2>
+                    <a class="hosting_footer" href="#" >Afficher plus</a>
                 </div>
                 <aside id="most_popular"> <!--most_popular division-->
-                    <div class="most_popular_head">
-                        <h1 class="most_popular_title">Les Plus Populaires</h1>
+                    <header class="most_popular_head">
+                        <h2 class="most_popular_title">Les Plus Populaires</h2>
                         <span class="chart_line"><i class="fas fa-chart-line"></i></span>
-                    </div>
+                    </header>
                     <div class="popular_cards">
-                        <a class="card_link" href="#">
-                            <figure class="popular_1"> <!--most_popular_1_division-->
-                                <span class="popular_1_img"></span>                           
-                                <article class="popular_1_text">
-                                    <figcaption class="popular_1_title">Hôtel Le soleil du matin</figcaption>
-                                    <p class="popular_1_price">Nuit à partir de 128&euro;</p>
-                                    <div class="stars_popular_1">
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                    </div>
-                                </article>       
-                            </figure>
-                        </a>
-                        <a class="card_link" href="#">
-                            <figure class="popular_2"> <!--most_popular_2_division-->
-                                <span class="popular_2_img"></span>                         
-                                <article class="popular_2_text">
-                                    <figcaption class="popular_2_title">Au coeur de l'eau Chambres D'hôtes</figcaption>
-                                    <p class="popular_2_price">Nuit à partir de 71&euro;</p>
-                                    <div class="stars_popular_2">
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular_grey"><i class="fas fa-star"></i></span>
-                                    </div>
-                                </article>
-                            </figure>
-                        </a>
-                        <a class="card_link" href="#">
-                            <figure class="popular_3"> <!--most_poupular_3_division-->
-                                <span class="popular_3_img"></span>                       
-                                <article class="popular_3_text">
-                                    <figcaption class="popular_3_title">Hôtel Tout bleu et Blanc</figcaption>
-                                    <p class="popular_3_price">Nuit à partir de 68&euro;</p>
-                                    <div class="stars_popular_3">
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular"><i class="fas fa-star"></i></span>
-                                        <span class="stars_popular_grey"><i class="fas fa-star"></i></span>
-                                    </div>
-                                </article>
-                            </figure>
-                        </a>
+                        <article class="popular_1"> <!--most_popular_1_division-->
+                            <a class="card_link" href="#">
+                                <figure class="popular_figure">
+                                    <span class="popular_1_img"></span>
+                                        <figcaption class="popular_1_text"><h3 class="popular_1_title">Hôtel Le soleil du matin</h3></figcaption>
+                                </figure>
+                                <p class="popular_1_price">Nuit à partir de 128&euro;</p>
+                                <div class="stars_popular_1">
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                </div> 
+                            </a>
+                        </article>
+                        <article class="popular_2"> <!--most_popular_2_division-->
+                            <a class="card_link" href="#">
+                                <figure class="popular_figure">
+                                    <span class="popular_2_img"></span>
+                                        <figcaption class="popular_2_text"><h3 class="popular_2_title">Au coeur de l'eau Chambres D'hôtes</h3></figcaption>
+                                </figure>
+                                <p class="popular_2_price">Nuit à partir de 71&euro;</p>
+                                <div class="stars_popular_2">
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_grey"><i class="fas fa-star"></i></span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="popular_3"> <!--most_popular_3_division-->
+                            <a class="card_link" href="#">
+                                <figure class="popular_figure">
+                                    <span class="popular_3_img"></span>
+                                        <figcaption class="popular_3_text"><h3 class="popular_3_title">Hôtel Tout bleu et Blanc</h3></figcaption>
+                                </figure>
+                                <p class="popular_3_price">Nuit à partir de 68&euro;</p>
+                                <div class="stars_popular_3">
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular"><i class="fas fa-star"></i></span>
+                                    <span class="stars_popular_grey"><i class="fas fa-star"></i></span>
+                                </div>   
+                            </a>
+                        </article>
                     </div>
                 </aside>
             </section>
@@ -232,40 +232,40 @@
                         <a  class="card_link" href="#">
                             <figure class="old_harbor"> <!--activities_1 division-->
                                 <span class="old_harbor_img"></span>
-                                <figcaption class="old_harbor_title">Vieux Port</figcaption>
+                                <figcaption><h3 class="old_harbor_title">Vieux Port</h3></figcaption>
                             </figure>
                         </a>
                         <div class="activities_vertical_1"> <!--vertical_1 division-->
                             <a class="card_link" href="#">
                                 <figure class="pomegues_fort"> <!--activities_2 division-->
                                     <span class="pomegues_fort_img"></span>
-                                    <figcaption class="pomegues_fort_title">Fort de Pomègues</figcaption>
+                                    <figcaption><h3 class="pomegues_fort_title">Fort de Pomègues</h3></figcaption>
                                 </figure>
                             </a>
                             <a class="card_link" href="#">
                                 <figure class="frioul_island"> <!--activities_3 division-->
                                     <span class="frioul_island_img"></span>
-                                    <figcaption class="frioul_island_title">Îles du Frioul</figcaption>
+                                    <figcaption><h3 class="frioul_island_title">Îles du Frioul</h3></figcaption>
                                 </figure>
                             </a>
                         </div>
                         <a  class="card_link" href="#">
                             <figure class="calanques_national_park"> <!--activities_4 division-->
                                 <span class="calanques_national_park_img"></span>
-                                <figcaption class="calanques_national_park_title">Parc National des Calanques</figcaption>
+                                <figcaption><h3 class="calanques_national_park_title">Parc National des Calanques</h3></figcaption>
                             </figure>
                         </a>
                         <div class="activities_vertical_2"> <!--vertical_2 division-->
                             <a class="card_link" href="#">
                                 <figure class="notre_dame"> <!--activities_5 division-->
                                     <span class="notre_dame_img"></span>
-                                    <figcaption class="notre_dame_title">Notre-Dame-de-la-Garde</figcaption>
+                                    <figcaption><h3 class="notre_dame_title">Notre-Dame-de-la-Garde</h3></figcaption>
                                 </figure>
                             </a>
                             <a class="card_link" href="#">
                                 <figure class="longchamp_park"> <!--activities_6 division-->
                                     <span class="longchamp_park_img"></span>
-                                    <figcaption class="longchamp_park_title">Parc Longchamp</figcaption>
+                                    <figcaption><h3 class="longchamp_park_title">Parc Longchamp</h3></figcaption>
                                 </figure>
                             </a>
                         </div>
@@ -275,19 +275,19 @@
             <footer>
                 <div class="footer_1"> <!--first footer list-->
                     <h2 class="footer_1_title">A propos</h2>
-                    <p class="footer_1_text_1">Fonctionnement du site</p>
-                    <p class="footer_1_text_2">Conditions générales de vente</p>
-                    <p class="footer_1_text_3">Données et confidentialité</p>
+                    <a href="#" class="footer_link"><p class="footer_1_text_1">Fonctionnement du site</p></a>
+                    <a href="#" class="footer_link"><p class="footer_1_text_2">Conditions générales de vente</p></a>
+                    <a href="#" class="footer_link"><p class="footer_1_text_3">Données et confidentialité</p></a>
                 </div>
                 <div class="footer_2"> <!--second footer list-->
                     <h2 class="footer_2_title">Nos hébergements</h2>
-                    <p class="footer_2_text_1">Charte qualité</p>
-                    <p class="footer_2_text_2">Soumettre votre hôtel</p>
+                    <a href="#" class="footer_link"><p class="footer_2_text_1">Charte qualité</p></a>
+                    <a href="#" class="footer_link"><p class="footer_2_text_2">Soumettre votre hôtel</p></a>
                 </div>
                 <div class="footer_3"> <!--third footer list-->
                     <h2 class="footer_3_title">Assistance</h2>
-                    <p class="footer_3_text_1">Centre d'aide</p>
-                    <p class="footer_3_text_2">Nous contacter</p>
+                    <a href="#" class="footer_link"><p class="footer_3_text_1">Centre d'aide</p></a>
+                    <a href="#" class="footer_link"><p class="footer_3_text_2">Nous contacter</p></a>
                 </div>
             </footer>
         </main>
